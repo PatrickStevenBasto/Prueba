@@ -1,0 +1,259 @@
+body {
+    margin: 20px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 18px;
+    height: 84vh;
+    margin-top: 80px; /* Altura del menú + un poco de espacio */
+}
+
+header {
+    grid-column: 1 / -1; /* Ocupa todas las columnas disponibles */
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #34495e; /* Color de fondo de la barra de menú */
+    padding: 10px 20px;
+}
+
+.menu-button {
+    background-color: #3498db;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: .2%;
+}
+
+.menu-button:hover {
+    background-color: #2980b9;
+}
+
+.menu-button-cs {
+    background-color: #f0591e;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 3%;
+    margin-left: 8px; /* Añade espacio entre los botones */
+}
+
+.menu-button-cs:hover {
+    background-color: #cf4d1a;
+}
+
+.area1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background-color: #c2c2c2; /* Cambia el color según tus preferencias */
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+.menu-button,
+.menu-button-cs {
+    margin: 5px 0; /* Añade espacio arriba y abajo en lugar de los lados */
+    }
+}
+
+.area2 {
+    position: relative;
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 3;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+    background-image: url('./altas-montanas-cubiertas-nieve-noche.jpg');
+}
+
+.area3 {
+    grid-column: 5;
+    grid-row: 1;
+    background-color: #c2c2c2;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area4 {
+    grid-column: 5;
+    grid-row: 2 / span 6;
+    background-color: #c2c2c2;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area5 {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #ff6600;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area6 {
+    grid-column: 1;
+    grid-row: 4;
+    background-color: #ff8800;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area7 {
+    grid-column: 1;
+    grid-row: 5;
+    background-color: #ffa600;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area8 {
+    position: relative;
+    padding: 20px;
+    grid-column: 1;
+    grid-row: 6 / span 2;
+    background-color: #4cb2e0;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area9 {
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 2;
+    background-color: #c2c2c2;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area10 {
+    grid-column: 4;
+    grid-row: 4 / span 2;
+    background-color: #c2c2c2;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area11 {
+    grid-column: 2;
+    grid-row: 6 / span 2;
+    background-color: #c2c2c2;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area12 {
+    grid-column: 3;
+    grid-row: 6 / span 2;
+    background-color: #c2c2c2;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.area13 {
+    grid-column: 4;
+    grid-row: 6 / span 2;
+    background-color: #c2c2c2;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
+    cursor: pointer;
+}
+
+.TituloG2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 38px;
+    margin-top: 30px;
+    }
+    
+    .SubtituloG2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 38px;
+    margin-top: -30px;
+    }
+    
+    .Indicador2G2 {
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    width: 38px; 
+    height: 38px;
+    top: 146px;
+    left: 40px;
+    border-radius: 50%;
+    }
+    
+    .Indicador1G2 {
+    background-image: url('./flecha-hacia-abajo.png');
+    position: absolute;
+    z-index: 1;
+    width: 34px; 
+    height: 34px;
+    top: 148px;
+    left: 42px;
+    }
+    
+    .Titulo567 {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: 540;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    
+    #barraCarga {
+        width: 150px;
+        height: 30px;
+        background-color: #eee;
+        position: relative;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 2.5px solid #2065aa;
+        box-shadow: 0 4px 8px #2065aac7;
+    }
+    
+    #progreso {
+        height: 100%;
+        background-color: #27a8fd;
+        width: 0%;
+    }
+    
+    #info {
+        font-family: "Roboto", sans-serif;
+        position: absolute;
+        font-size: 20px;
+        font-weight: 500;
+        color: #ffffff;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
