@@ -74,7 +74,7 @@ header {
     border-radius: 7px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.089);
     cursor: pointer;
-    background-image: url('./altas-montanas-cubiertas-nieve-noche.jpg');
+    background-color: #27a8fd;
 }
 
 .area3 {
